@@ -1,0 +1,11 @@
+{
+    "name": "narou",
+    "dockerComposeFile": "docker-compose.yaml",
+    "service": "workspace",
+    "workspaceFolder": "/workspace",
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "/bin/zsh",
+    },
+    "extensions": [
+    ],
+}
