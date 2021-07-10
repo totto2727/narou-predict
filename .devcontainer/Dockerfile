@@ -1,11 +1,14 @@
 FROM python:3.9.6-buster
 
-ARG INSTALL_ZSH="true"
+ARG INSTALL_ZSH="false"
 ARG UPGRADE_PACKAGES="true"
 
 ARG USERNAME=vscode
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
+
+#require .devcontainer/gitconfig
+COPY ./gitconfig /etc/gitconfig
 
 #setup script
 COPY ./scripts/*.sh /tmp/scripts/
@@ -36,6 +39,13 @@ RUN git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git /ipa
 
 RUN pip install --no-cache-dir \ 
     mecab-python3 \
-    requests
+    requests \
+    fastapi[all] \
+    ipykernel \
+    black \
+    flake8 \
+    mypy
+
+
 
 RUN ln -s /etc/mecabrc /usr/local/etc/mecabrc

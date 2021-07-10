@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  workspace:
+  narou-predict:
     container_name: dev
     build :
       context: .
@@ -11,3 +11,20 @@ services:
       - ../:/workspace
     working_dir: /workspace
     user: vscode
+    depends_on: 
+      - db
+
+  db:
+    container_name: db
+    image: "postgres:latest"
+    ports: 
+      - "5432:5432"
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d
+    env_file: ./db.env
+    networks: 
+      - default
+
+
+volumes:
+  node_modules:

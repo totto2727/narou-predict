@@ -1,11 +1,31 @@
 {
-    "name": "narou",
+    "name": "narou-predict",
     "dockerComposeFile": "docker-compose.yaml",
-    "service": "workspace",
+    "service": "narou-predict",
     "workspaceFolder": "/workspace",
     "settings": {
-        "terminal.integrated.defaultProfile.linux": "/bin/zsh",
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "python.linting.flake8Enabled": true,
+        "python.linting.pylintEnabled": false,
+        "python.linting.enabled": true,
+        "python.formatting.provider": "black",
+        "python.linting.lintOnSave": true,
+        "editor.formatOnSave": true,
+        "python.linting.mypyEnabled": true
     },
     "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "ms-azuretools.vscode-docker",
+        "grapecity.gc-excelviewer",
+        "ms-toolsai.jupyter",
+        "christian-kohler.path-intellisense",
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "visualstudioexptteam.vscodeintellicode",
+        "mtxr.sqltools"
     ],
+    "postAttachCommand": "python3 -m pip install types-requests"
 }
