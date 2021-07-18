@@ -14,7 +14,8 @@
         "python.formatting.provider": "black",
         "python.linting.lintOnSave": true,
         "editor.formatOnSave": true,
-        "python.linting.mypyEnabled": true
+        "python.linting.mypyEnabled": true,
+        "python.linting.flake8Args": ["--max-line-length=88"]
     },
     "extensions": [
         "streetsidesoftware.code-spell-checker",
@@ -25,6 +26,7 @@
         "ms-python.vscode-pylance",
         "ms-python.python",
         "visualstudioexptteam.vscodeintellicode",
+        "mtxr.sqltools-driver-pg",
         "mtxr.sqltools"
     ],
     "postAttachCommand": "python3 -m pip install types-requests"

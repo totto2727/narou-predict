@@ -1,69 +1,79 @@
 # %%
-import os
-import requests
-import asyncio
-import gzip
 import datetime
+import gzip
+import os
+
+import requests
+
+from helper_functions import save_json, date_to_rtype, now_jst
 
 # %%
 
 
-async def request_ranking_async(rtype, out="json"):
-    loop = asyncio.get_event_loop()
+def request_ranking_async(rtype, out="json"):
     base_url = "https://api.syosetu.com/rank/rankget/"
     parameter = "?" + "&".join(
         [f"rtype={rtype}", f"out={out}", "gzip=5"],
     )
     url = base_url + parameter
-    res = await loop.run_in_executor(None, requests.get, url)
-    return gzip.decompress(res.content).decode("utf-8")
+    res = requests.get(url)
+    return gzip.decompress(res.content).decode("unicode-escape")
 
 
 # %%
-async def request_rankings_async():
-    now = now_jst()
-    tuesday = now - datetime.timedelta(now.weekday() - 1)
-    tuesday = tuesday if now > tuesday else tuesday - datetime.timedelta(7)
-    month_start = now.replace(day=1)
-
-    def rtype(date: datetime.date, target):
-        return f"{date.year}{date.month:02}{date.day:02}-{target}"
+def request_all_rankings_async(date):
+    tuesday = date - datetime.timedelta(date.weekday() - 1)
+    tuesday = tuesday if date > tuesday else tuesday - datetime.timedelta(7)
+    month_start = date.replace(day=1)
 
     rtypes = (
-        rtype(now, "d"),
-        rtype(tuesday, "w"),
-        rtype(month_start, "m"),
-        rtype(month_start, "q"),
+        date_to_rtype(date, "d"),
+        date_to_rtype(tuesday, "w"),
+        date_to_rtype(month_start, "m"),
+        date_to_rtype(month_start, "q"),
     )
 
-    return {rtype: await request_ranking_async(rtype) for rtype in rtypes}, now
+    return {rtype: request_ranking_async(rtype) for rtype in rtypes}
 
 
 # %%
-def saveJson(name, json, create_at=None):
-    create_at = now_jst() if create_at is None else create_at
-    directory = f"{create_at.year}{create_at.month:02}{create_at.day:02}"
-    base_path = os.path.join(os.path.dirname(__file__), "..", "data")
-    path = os.path.join(base_path, directory, "ranking")
-    os.makedirs(path, exist_ok=True)
-    with open(os.path.join(path, name), mode="w") as f:
-        f.write(json)
+def request_rankings_async(date):
+    tuesday = date - datetime.timedelta(date.weekday() - 1)
+    tuesday = tuesday if date > tuesday else tuesday - datetime.timedelta(7)
+    month_start = date.replace(day=1)
+
+    rtypes = (
+        date_to_rtype(date, "d"),
+        date_to_rtype(tuesday, "w") if date.date() == tuesday.date() else None,
+        date_to_rtype(month_start, "m") if date.date() == month_start.date() else None,
+        date_to_rtype(month_start, "q") if date.date() == month_start.date() else None,
+    )
+
+    return {r: request_ranking_async(r) for r in rtypes if r is not None}
 
 
 # %%
-async def get_ranking_json(time=None):
-    ranking_dict, now = await request_rankings_async()
-    now = now if time is None else time
+def get_ranking_json_(f, date=None):
+    date = date if date is not None else now_jst()
+    date_formatted = date_to_rtype(date)
+    ranking_dict = f(date)
+    base_path = os.path.join(
+        os.path.dirname(__file__), "..", "data", date_formatted, "ranking"
+    )
     for rtype, json in ranking_dict.items():
-        saveJson(rtype, json, now)
+        save_json(base_path, rtype, json)
 
 
 # %%
-def now_jst():
-    jst = datetime.timezone(datetime.timedelta(hours=+9), "JST")
-    return datetime.datetime.now(jst)
+def get_all_rankings_json(date=None):
+    get_ranking_json_(request_all_rankings_async, date)
+
+
+# %%
+def get_rankings_json(date=None):
+    get_ranking_json_(request_rankings_async, date)
 
 
 # %%
 if __name__ == "__main__":
-    asyncio.run(get_ranking_json())
+    get_rankings_json()

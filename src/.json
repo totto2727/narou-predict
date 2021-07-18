@@ -1,0 +1,1503 @@
+{'20210718-d': '[
+        {
+            "ncode": "N0908HC",
+            "pt": 7710,
+            "rank": 1
+        },
+        {
+            "ncode": "N0903HC",
+            "pt": 7304,
+            "rank": 2
+        },
+        {
+            "ncode": "N7310HB",
+            "pt": 6892,
+            "rank": 3
+        },
+        {
+            "ncode": "N0431HC",
+            "pt": 5152,
+            "rank": 4
+        },
+        {
+            "ncode": "N0733HC",
+            "pt": 4972,
+            "rank": 5
+        },
+        {
+            "ncode": "N1101HC",
+            "pt": 4170,
+            "rank": 6
+        },
+        {
+            "ncode": "N8166HA",
+            "pt": 3858,
+            "rank": 7
+        },
+        {
+            "ncode": "N6398HB",
+            "pt": 3846,
+            "rank": 8
+        },
+        {
+            "ncode": "N0724HC",
+            "pt": 3578,
+            "rank": 9
+        },
+        {
+            "ncode": "N1929HB",
+            "pt": 3346,
+            "rank": 10
+        },
+        {
+            "ncode": "N6395HB",
+            "pt": 2746,
+            "rank": 11
+        },
+        {
+            "ncode": "N4292GZ",
+            "pt": 2674,
+            "rank": 12
+        },
+        {
+            "ncode": "N9610HB",
+            "pt": 2566,
+            "rank": 13
+        },
+        {
+            "ncode": "N3836GY",
+            "pt": 2476,
+            "rank": 14
+        },
+        {
+            "ncode": "N0938HC",
+            "pt": 2364,
+            "rank": 15
+        },
+        {
+            "ncode": "N0378HC",
+            "pt": 2008,
+            "rank": 16
+        },
+        {
+            "ncode": "N7066HB",
+            "pt": 1930,
+            "rank": 17
+        },
+        {
+            "ncode": "N5034HB",
+            "pt": 1852,
+            "rank": 18
+        },
+        {
+            "ncode": "N1688HB",
+            "pt": 1806,
+            "rank": 19
+        },
+        {
+            "ncode": "N9059HB",
+            "pt": 1786,
+            "rank": 20
+        },
+        {
+            "ncode": "N1412HC",
+            "pt": 1748,
+            "rank": 21
+        },
+        {
+            "ncode": "N1099HC",
+            "pt": 1672,
+            "rank": 22
+        },
+        {
+            "ncode": "N7452HB",
+            "pt": 1662,
+            "rank": 23
+        },
+        {
+            "ncode": "N1405HB",
+            "pt": 1654,
+            "rank": 24
+        },
+        {
+            "ncode": "N6005HB",
+            "pt": 1558,
+            "rank": 25
+        },
+        {
+            "ncode": "N8030HB",
+            "pt": 1528,
+            "rank": 26
+        },
+        {
+            "ncode": "N7491HB",
+            "pt": 1522,
+            "rank": 27
+        },
+        {
+            "ncode": "N1144GO",
+            "pt": 1472,
+            "rank": 28
+        },
+        {
+            "ncode": "N7332HB",
+            "pt": 1352,
+            "rank": 29
+        },
+        {
+            "ncode": "N0166HC",
+            "pt": 1264,
+            "rank": 30
+        },
+        {
+            "ncode": "N1125HB",
+            "pt": 1260,
+            "rank": 31
+        },
+        {
+            "ncode": "N3817GZ",
+            "pt": 1244,
+            "rank": 32
+        },
+        {
+            "ncode": "N1513HC",
+            "pt": 1228,
+            "rank": 33
+        },
+        {
+            "ncode": "N1073HC",
+            "pt": 1224,
+            "rank": 34
+        },
+        {
+            "ncode": "N9954HB",
+            "pt": 1210,
+            "rank": 35
+        },
+        {
+            "ncode": "N6522HB",
+            "pt": 1184,
+            "rank": 36
+        },
+        {
+            "ncode": "N8465GX",
+            "pt": 1142,
+            "rank": 37
+        },
+        {
+            "ncode": "N0469HC",
+            "pt": 1138,
+            "rank": 38
+        },
+        {
+            "ncode": "N0413HC",
+            "pt": 1126,
+            "rank": 39
+        },
+        {
+            "ncode": "N9923HB",
+            "pt": 1118,
+            "rank": 40
+        },
+        {
+            "ncode": "N1322HC",
+            "pt": 1094,
+            "rank": 41
+        },
+        {
+            "ncode": "N8692BO",
+            "pt": 1052,
+            "rank": 42
+        },
+        {
+            "ncode": "N5858HA",
+            "pt": 1034,
+            "rank": 43
+        },
+        {
+            "ncode": "N0484HC",
+            "pt": 1020,
+            "rank": 44
+        },
+        {
+            "ncode": "N9909HB",
+            "pt": 1018,
+            "rank": 45
+        },
+        {
+            "ncode": "N0424HB",
+            "pt": 1006,
+            "rank": 46
+        },
+        {
+            "ncode": "N9591HB",
+            "pt": 996,
+            "rank": 47
+        },
+        {
+            "ncode": "N2221GY",
+            "pt": 996,
+            "rank": 48
+        },
+        {
+            "ncode": "N0273HC",
+            "pt": 988,
+            "rank": 49
+        },
+        {
+            "ncode": "N2936HA",
+            "pt": 974,
+            "rank": 50
+        },
+        {
+            "ncode": "N9925GZ",
+            "pt": 962,
+            "rank": 51
+        },
+        {
+            "ncode": "N9624GU",
+            "pt": 962,
+            "rank": 52
+        },
+        {
+            "ncode": "N9382HB",
+            "pt": 948,
+            "rank": 53
+        },
+        {
+            "ncode": "N9795HB",
+            "pt": 938,
+            "rank": 54
+        },
+        {
+            "ncode": "N0863HC",
+            "pt": 920,
+            "rank": 55
+        },
+        {
+            "ncode": "N2731ES",
+            "pt": 906,
+            "rank": 56
+        },
+        {
+            "ncode": "N1787HB",
+            "pt": 892,
+            "rank": 57
+        },
+        {
+            "ncode": "N0712HC",
+            "pt": 878,
+            "rank": 58
+        },
+        {
+            "ncode": "N1516HC",
+            "pt": 864,
+            "rank": 59
+        },
+        {
+            "ncode": "N9840HB",
+            "pt": 856,
+            "rank": 60
+        },
+        {
+            "ncode": "N1702HC",
+            "pt": 846,
+            "rank": 61
+        },
+        {
+            "ncode": "N0226HC",
+            "pt": 840,
+            "rank": 62
+        },
+        {
+            "ncode": "N5152HB",
+            "pt": 840,
+            "rank": 63
+        },
+        {
+            "ncode": "N9783HA",
+            "pt": 812,
+            "rank": 64
+        },
+        {
+            "ncode": "N7096GZ",
+            "pt": 796,
+            "rank": 65
+        },
+        {
+            "ncode": "N1238HC",
+            "pt": 778,
+            "rank": 66
+        },
+        {
+            "ncode": "N5775GZ",
+            "pt": 766,
+            "rank": 67
+        },
+        {
+            "ncode": "N2881HA",
+            "pt": 760,
+            "rank": 68
+        },
+        {
+            "ncode": "N2979GU",
+            "pt": 744,
+            "rank": 69
+        },
+        {
+            "ncode": "N5896HA",
+            "pt": 742,
+            "rank": 70
+        },
+        {
+            "ncode": "N1784GA",
+            "pt": 738,
+            "rank": 71
+        },
+        {
+            "ncode": "N0844GB",
+            "pt": 728,
+            "rank": 72
+        },
+        {
+            "ncode": "N1748HC",
+            "pt": 724,
+            "rank": 73
+        },
+        {
+            "ncode": "N5476HB",
+            "pt": 702,
+            "rank": 74
+        },
+        {
+            "ncode": "N9860HB",
+            "pt": 686,
+            "rank": 75
+        },
+        {
+            "ncode": "N1186HC",
+            "pt": 684,
+            "rank": 76
+        },
+        {
+            "ncode": "N0686GZ",
+            "pt": 676,
+            "rank": 77
+        },
+        {
+            "ncode": "N8976HA",
+            "pt": 670,
+            "rank": 78
+        },
+        {
+            "ncode": "N0495HC",
+            "pt": 664,
+            "rank": 79
+        },
+        {
+            "ncode": "N8329GJ",
+            "pt": 664,
+            "rank": 80
+        },
+        {
+            "ncode": "N0790HC",
+            "pt": 644,
+            "rank": 81
+        },
+        {
+            "ncode": "N0962HC",
+            "pt": 640,
+            "rank": 82
+        },
+        {
+            "ncode": "N8783GZ",
+            "pt": 638,
+            "rank": 83
+        },
+        {
+            "ncode": "N3161HB",
+            "pt": 630,
+            "rank": 84
+        },
+        {
+            "ncode": "N0799HC",
+            "pt": 622,
+            "rank": 85
+        },
+        {
+            "ncode": "N8699GX",
+            "pt": 618,
+            "rank": 86
+        },
+        {
+            "ncode": "N0599HC",
+            "pt": 616,
+            "rank": 87
+        },
+        {
+            "ncode": "N7588HA",
+            "pt": 610,
+            "rank": 88
+        },
+        {
+            "ncode": "N0174GY",
+            "pt": 590,
+            "rank": 89
+        },
+        {
+            "ncode": "N8541CR",
+            "pt": 584,
+            "rank": 90
+        },
+        {
+            "ncode": "N8869HB",
+            "pt": 582,
+            "rank": 91
+        },
+        {
+            "ncode": "N0821GO",
+            "pt": 566,
+            "rank": 92
+        },
+        {
+            "ncode": "N9865HB",
+            "pt": 564,
+            "rank": 93
+        },
+        {
+            "ncode": "N1258GP",
+            "pt": 564,
+            "rank": 94
+        },
+        {
+            "ncode": "N1688GZ",
+            "pt": 560,
+            "rank": 95
+        },
+        {
+            "ncode": "N7457FC",
+            "pt": 558,
+            "rank": 96
+        },
+        {
+            "ncode": "N4712GK",
+            "pt": 552,
+            "rank": 97
+        },
+        {
+            "ncode": "N4936DP",
+            "pt": 548,
+            "rank": 98
+        },
+        {
+            "ncode": "N1573HC",
+            "pt": 548,
+            "rank": 99
+        },
+        {
+            "ncode": "N1048HC",
+            "pt": 544,
+            "rank": 100
+        },
+        {
+            "ncode": "N7747HB",
+            "pt": 542,
+            "rank": 101
+        },
+        {
+            "ncode": "N2125GZ",
+            "pt": 534,
+            "rank": 102
+        },
+        {
+            "ncode": "N8120GP",
+            "pt": 534,
+            "rank": 103
+        },
+        {
+            "ncode": "N1107HC",
+            "pt": 524,
+            "rank": 104
+        },
+        {
+            "ncode": "N0826GY",
+            "pt": 518,
+            "rank": 105
+        },
+        {
+            "ncode": "N2841HB",
+            "pt": 512,
+            "rank": 106
+        },
+        {
+            "ncode": "N0423GU",
+            "pt": 512,
+            "rank": 107
+        },
+        {
+            "ncode": "N8443GV",
+            "pt": 508,
+            "rank": 108
+        },
+        {
+            "ncode": "N9560HB",
+            "pt": 506,
+            "rank": 109
+        },
+        {
+            "ncode": "N0919HC",
+            "pt": 498,
+            "rank": 110
+        },
+        {
+            "ncode": "N6783HB",
+            "pt": 494,
+            "rank": 111
+        },
+        {
+            "ncode": "N6043HB",
+            "pt": 492,
+            "rank": 112
+        },
+        {
+            "ncode": "N4364FF",
+            "pt": 488,
+            "rank": 113
+        },
+        {
+            "ncode": "N2478GZ",
+            "pt": 486,
+            "rank": 114
+        },
+        {
+            "ncode": "N1871HC",
+            "pt": 482,
+            "rank": 115
+        },
+        {
+            "ncode": "N1962HB",
+            "pt": 482,
+            "rank": 116
+        },
+        {
+            "ncode": "N2504GQ",
+            "pt": 478,
+            "rank": 117
+        },
+        {
+            "ncode": "N8977HB",
+            "pt": 468,
+            "rank": 118
+        },
+        {
+            "ncode": "N6369GZ",
+            "pt": 468,
+            "rank": 119
+        },
+        {
+            "ncode": "N7695HB",
+            "pt": 468,
+            "rank": 120
+        },
+        {
+            "ncode": "N9433GN",
+            "pt": 466,
+            "rank": 121
+        },
+        {
+            "ncode": "N2049GR",
+            "pt": 464,
+            "rank": 122
+        },
+        {
+            "ncode": "N8963HB",
+            "pt": 460,
+            "rank": 123
+        },
+        {
+            "ncode": "N9967HB",
+            "pt": 456,
+            "rank": 124
+        },
+        {
+            "ncode": "N4171HA",
+            "pt": 454,
+            "rank": 125
+        },
+        {
+            "ncode": "N1860FV",
+            "pt": 448,
+            "rank": 126
+        },
+        {
+            "ncode": "N9366HA",
+            "pt": 442,
+            "rank": 127
+        },
+        {
+            "ncode": "N4168HA",
+            "pt": 442,
+            "rank": 128
+        },
+        {
+            "ncode": "N1790HA",
+            "pt": 440,
+            "rank": 129
+        },
+        {
+            "ncode": "N8430HB",
+            "pt": 438,
+            "rank": 130
+        },
+        {
+            "ncode": "N7128HA",
+            "pt": 438,
+            "rank": 131
+        },
+        {
+            "ncode": "N7787EQ",
+            "pt": 436,
+            "rank": 132
+        },
+        {
+            "ncode": "N4214GK",
+            "pt": 432,
+            "rank": 133
+        },
+        {
+            "ncode": "N0116HC",
+            "pt": 428,
+            "rank": 134
+        },
+        {
+            "ncode": "N9436HB",
+            "pt": 428,
+            "rank": 135
+        },
+        {
+            "ncode": "N1525HC",
+            "pt": 426,
+            "rank": 136
+        },
+        {
+            "ncode": "N7441HB",
+            "pt": 426,
+            "rank": 137
+        },
+        {
+            "ncode": "N5602GA",
+            "pt": 422,
+            "rank": 138
+        },
+        {
+            "ncode": "N1875HC",
+            "pt": 418,
+            "rank": 139
+        },
+        {
+            "ncode": "N6719GZ",
+            "pt": 418,
+            "rank": 140
+        },
+        {
+            "ncode": "N5495GN",
+            "pt": 416,
+            "rank": 141
+        },
+        {
+            "ncode": "N0634FV",
+            "pt": 414,
+            "rank": 142
+        },
+        {
+            "ncode": "N6899HB",
+            "pt": 412,
+            "rank": 143
+        },
+        {
+            "ncode": "N4609FT",
+            "pt": 410,
+            "rank": 144
+        },
+        {
+            "ncode": "N8354GR",
+            "pt": 406,
+            "rank": 145
+        },
+        {
+            "ncode": "N6507HA",
+            "pt": 404,
+            "rank": 146
+        },
+        {
+            "ncode": "N7975CR",
+            "pt": 404,
+            "rank": 147
+        },
+        {
+            "ncode": "N9693GS",
+            "pt": 402,
+            "rank": 148
+        },
+        {
+            "ncode": "N3442HB",
+            "pt": 400,
+            "rank": 149
+        },
+        {
+            "ncode": "N7752HB",
+            "pt": 398,
+            "rank": 150
+        },
+        {
+            "ncode": "N0141HB",
+            "pt": 398,
+            "rank": 151
+        },
+        {
+            "ncode": "N9828HA",
+            "pt": 396,
+            "rank": 152
+        },
+        {
+            "ncode": "N8106FU",
+            "pt": 388,
+            "rank": 153
+        },
+        {
+            "ncode": "N6316BN",
+            "pt": 382,
+            "rank": 154
+        },
+        {
+            "ncode": "N8356GA",
+            "pt": 378,
+            "rank": 155
+        },
+        {
+            "ncode": "N7958HB",
+            "pt": 368,
+            "rank": 156
+        },
+        {
+            "ncode": "N4301HB",
+            "pt": 362,
+            "rank": 157
+        },
+        {
+            "ncode": "N5139HA",
+            "pt": 356,
+            "rank": 158
+        },
+        {
+            "ncode": "N7222FF",
+            "pt": 356,
+            "rank": 159
+        },
+        {
+            "ncode": "N8611BV",
+            "pt": 352,
+            "rank": 160
+        },
+        {
+            "ncode": "N2195GJ",
+            "pt": 350,
+            "rank": 161
+        },
+        {
+            "ncode": "N0362HC",
+            "pt": 346,
+            "rank": 162
+        },
+        {
+            "ncode": "N9016HA",
+            "pt": 344,
+            "rank": 163
+        },
+        {
+            "ncode": "N9584GD",
+            "pt": 344,
+            "rank": 164
+        },
+        {
+            "ncode": "N6169DZ",
+            "pt": 340,
+            "rank": 165
+        },
+        {
+            "ncode": "N2595GL",
+            "pt": 336,
+            "rank": 166
+        },
+        {
+            "ncode": "N4210EM",
+            "pt": 336,
+            "rank": 167
+        },
+        {
+            "ncode": "N1119HC",
+            "pt": 330,
+            "rank": 168
+        },
+        {
+            "ncode": "N4169HA",
+            "pt": 328,
+            "rank": 169
+        },
+        {
+            "ncode": "N3635FW",
+            "pt": 324,
+            "rank": 170
+        },
+        {
+            "ncode": "N1134HB",
+            "pt": 322,
+            "rank": 171
+        },
+        {
+            "ncode": "N6255FH",
+            "pt": 322,
+            "rank": 172
+        },
+        {
+            "ncode": "N0454HB",
+            "pt": 316,
+            "rank": 173
+        },
+        {
+            "ncode": "N8760GE",
+            "pt": 308,
+            "rank": 174
+        },
+        {
+            "ncode": "N0637GI",
+            "pt": 308,
+            "rank": 175
+        },
+        {
+            "ncode": "N2710DB",
+            "pt": 306,
+            "rank": 176
+        },
+        {
+            "ncode": "N0763EF",
+            "pt": 304,
+            "rank": 177
+        },
+        {
+            "ncode": "N8172HB",
+            "pt": 302,
+            "rank": 178
+        },
+        {
+            "ncode": "N9256HB",
+            "pt": 300,
+            "rank": 179
+        },
+        {
+            "ncode": "N1204HA",
+            "pt": 296,
+            "rank": 180
+        },
+        {
+            "ncode": "N5794HB",
+            "pt": 296,
+            "rank": 181
+        },
+        {
+            "ncode": "N0351HC",
+            "pt": 292,
+            "rank": 182
+        },
+        {
+            "ncode": "N5708HA",
+            "pt": 292,
+            "rank": 183
+        },
+        {
+            "ncode": "N7673FF",
+            "pt": 292,
+            "rank": 184
+        },
+        {
+            "ncode": "N5619FV",
+            "pt": 292,
+            "rank": 185
+        },
+        {
+            "ncode": "N1996GZ",
+            "pt": 292,
+            "rank": 186
+        },
+        {
+            "ncode": "N5542GS",
+            "pt": 290,
+            "rank": 187
+        },
+        {
+            "ncode": "N5576GR",
+            "pt": 290,
+            "rank": 188
+        },
+        {
+            "ncode": "N8026HB",
+            "pt": 288,
+            "rank": 189
+        },
+        {
+            "ncode": "N1199GC",
+            "pt": 288,
+            "rank": 190
+        },
+        {
+            "ncode": "N9629EX",
+            "pt": 288,
+            "rank": 191
+        },
+        {
+            "ncode": "N2028HB",
+            "pt": 286,
+            "rank": 192
+        },
+        {
+            "ncode": "N8797GV",
+            "pt": 286,
+            "rank": 193
+        },
+        {
+            "ncode": "N7657HA",
+            "pt": 286,
+            "rank": 194
+        },
+        {
+            "ncode": "N8568FY",
+            "pt": 286,
+            "rank": 195
+        },
+        {
+            "ncode": "N0597GJ",
+            "pt": 282,
+            "rank": 196
+        },
+        {
+            "ncode": "N8139DG",
+            "pt": 276,
+            "rank": 197
+        },
+        {
+            "ncode": "N1076HC",
+            "pt": 274,
+            "rank": 198
+        },
+        {
+            "ncode": "N6786HA",
+            "pt": 272,
+            "rank": 199
+        },
+        {
+            "ncode": "N4344HB",
+            "pt": 272,
+            "rank": 200
+        },
+        {
+            "ncode": "N5038GY",
+            "pt": 272,
+            "rank": 201
+        },
+        {
+            "ncode": "N8262HB",
+            "pt": 272,
+            "rank": 202
+        },
+        {
+            "ncode": "N7230GM",
+            "pt": 272,
+            "rank": 203
+        },
+        {
+            "ncode": "N3669FW",
+            "pt": 272,
+            "rank": 204
+        },
+        {
+            "ncode": "N2591GI",
+            "pt": 272,
+            "rank": 205
+        },
+        {
+            "ncode": "N6115HB",
+            "pt": 270,
+            "rank": 206
+        },
+        {
+            "ncode": "N1890HC",
+            "pt": 268,
+            "rank": 207
+        },
+        {
+            "ncode": "N1093HB",
+            "pt": 266,
+            "rank": 208
+        },
+        {
+            "ncode": "N7353HB",
+            "pt": 264,
+            "rank": 209
+        },
+        {
+            "ncode": "N9705GS",
+            "pt": 264,
+            "rank": 210
+        },
+        {
+            "ncode": "N0136HC",
+            "pt": 264,
+            "rank": 211
+        },
+        {
+            "ncode": "N6685EP",
+            "pt": 262,
+            "rank": 212
+        },
+        {
+            "ncode": "N1512HB",
+            "pt": 260,
+            "rank": 213
+        },
+        {
+            "ncode": "N6314HA",
+            "pt": 258,
+            "rank": 214
+        },
+        {
+            "ncode": "N3191EH",
+            "pt": 258,
+            "rank": 215
+        },
+        {
+            "ncode": "N4632HA",
+            "pt": 252,
+            "rank": 216
+        },
+        {
+            "ncode": "N5599FV",
+            "pt": 250,
+            "rank": 217
+        },
+        {
+            "ncode": "N7101GZ",
+            "pt": 250,
+            "rank": 218
+        },
+        {
+            "ncode": "N7466EM",
+            "pt": 250,
+            "rank": 219
+        },
+        {
+            "ncode": "N0421DU",
+            "pt": 250,
+            "rank": 220
+        },
+        {
+            "ncode": "N1936HC",
+            "pt": 248,
+            "rank": 221
+        },
+        {
+            "ncode": "N9636X",
+            "pt": 248,
+            "rank": 222
+        },
+        {
+            "ncode": "N3352GQ",
+            "pt": 248,
+            "rank": 223
+        },
+        {
+            "ncode": "N1828HC",
+            "pt": 244,
+            "rank": 224
+        },
+        {
+            "ncode": "N1619HC",
+            "pt": 244,
+            "rank": 225
+        },
+        {
+            "ncode": "N0112FI",
+            "pt": 244,
+            "rank": 226
+        },
+        {
+            "ncode": "N5869HA",
+            "pt": 242,
+            "rank": 227
+        },
+        {
+            "ncode": "N4616GO",
+            "pt": 242,
+            "rank": 228
+        },
+        {
+            "ncode": "N0145HC",
+            "pt": 242,
+            "rank": 229
+        },
+        {
+            "ncode": "N8198HB",
+            "pt": 242,
+            "rank": 230
+        },
+        {
+            "ncode": "N9843GJ",
+            "pt": 242,
+            "rank": 231
+        },
+        {
+            "ncode": "N4805HA",
+            "pt": 240,
+            "rank": 232
+        },
+        {
+            "ncode": "N0340HC",
+            "pt": 240,
+            "rank": 233
+        },
+        {
+            "ncode": "N8923HA",
+            "pt": 238,
+            "rank": 234
+        },
+        {
+            "ncode": "N0603HB",
+            "pt": 238,
+            "rank": 235
+        },
+        {
+            "ncode": "N2615HB",
+            "pt": 236,
+            "rank": 236
+        },
+        {
+            "ncode": "N8672GI",
+            "pt": 234,
+            "rank": 237
+        },
+        {
+            "ncode": "N8637HB",
+            "pt": 232,
+            "rank": 238
+        },
+        {
+            "ncode": "N6093EN",
+            "pt": 232,
+            "rank": 239
+        },
+        {
+            "ncode": "N5040CE",
+            "pt": 230,
+            "rank": 240
+        },
+        {
+            "ncode": "N9669BK",
+            "pt": 228,
+            "rank": 241
+        },
+        {
+            "ncode": "N8920EX",
+            "pt": 224,
+            "rank": 242
+        },
+        {
+            "ncode": "N9638GX",
+            "pt": 222,
+            "rank": 243
+        },
+        {
+            "ncode": "N8294GX",
+            "pt": 222,
+            "rank": 244
+        },
+        {
+            "ncode": "N8316HB",
+            "pt": 222,
+            "rank": 245
+        },
+        {
+            "ncode": "N7366GZ",
+            "pt": 220,
+            "rank": 246
+        },
+        {
+            "ncode": "N1172GY",
+            "pt": 220,
+            "rank": 247
+        },
+        {
+            "ncode": "N6388FZ",
+            "pt": 220,
+            "rank": 248
+        },
+        {
+            "ncode": "N2057HC",
+            "pt": 218,
+            "rank": 249
+        },
+        {
+            "ncode": "N3711GZ",
+            "pt": 218,
+            "rank": 250
+        },
+        {
+            "ncode": "N1850HC",
+            "pt": 218,
+            "rank": 251
+        },
+        {
+            "ncode": "N7529GB",
+            "pt": 216,
+            "rank": 252
+        },
+        {
+            "ncode": "N3976GK",
+            "pt": 216,
+            "rank": 253
+        },
+        {
+            "ncode": "N1383HB",
+            "pt": 214,
+            "rank": 254
+        },
+        {
+            "ncode": "N3962HB",
+            "pt": 212,
+            "rank": 255
+        },
+        {
+            "ncode": "N0883GS",
+            "pt": 212,
+            "rank": 256
+        },
+        {
+            "ncode": "N4830BU",
+            "pt": 212,
+            "rank": 257
+        },
+        {
+            "ncode": "N2153HB",
+            "pt": 210,
+            "rank": 258
+        },
+        {
+            "ncode": "N5657FV",
+            "pt": 210,
+            "rank": 259
+        },
+        {
+            "ncode": "N5098GZ",
+            "pt": 208,
+            "rank": 260
+        },
+        {
+            "ncode": "N5378GC",
+            "pt": 208,
+            "rank": 261
+        },
+        {
+            "ncode": "N0944HA",
+            "pt": 206,
+            "rank": 262
+        },
+        {
+            "ncode": "N7961HB",
+            "pt": 206,
+            "rank": 263
+        },
+        {
+            "ncode": "N0468ER",
+            "pt": 206,
+            "rank": 264
+        },
+        {
+            "ncode": "N1337CN",
+            "pt": 206,
+            "rank": 265
+        },
+        {
+            "ncode": "N1219GV",
+            "pt": 204,
+            "rank": 266
+        },
+        {
+            "ncode": "N1976EY",
+            "pt": 202,
+            "rank": 267
+        },
+        {
+            "ncode": "N9101FY",
+            "pt": 202,
+            "rank": 268
+        },
+        {
+            "ncode": "N3556O",
+            "pt": 202,
+            "rank": 269
+        },
+        {
+            "ncode": "N1217ET",
+            "pt": 200,
+            "rank": 270
+        },
+        {
+            "ncode": "N6204GB",
+            "pt": 200,
+            "rank": 271
+        },
+        {
+            "ncode": "N3904GQ",
+            "pt": 200,
+            "rank": 272
+        },
+        {
+            "ncode": "N7656HB",
+            "pt": 198,
+            "rank": 273
+        },
+        {
+            "ncode": "N6454HB",
+            "pt": 198,
+            "rank": 274
+        },
+        {
+            "ncode": "N1206HC",
+            "pt": 198,
+            "rank": 275
+        },
+        {
+            "ncode": "N0219GQ",
+            "pt": 198,
+            "rank": 276
+        },
+        {
+            "ncode": "N4613GZ",
+            "pt": 196,
+            "rank": 277
+        },
+        {
+            "ncode": "N1244FR",
+            "pt": 196,
+            "rank": 278
+        },
+        {
+            "ncode": "N7070GZ",
+            "pt": 196,
+            "rank": 279
+        },
+        {
+            "ncode": "N2959BS",
+            "pt": 196,
+            "rank": 280
+        },
+        {
+            "ncode": "N9827HB",
+            "pt": 194,
+            "rank": 281
+        },
+        {
+            "ncode": "N6915HB",
+            "pt": 194,
+            "rank": 282
+        },
+        {
+            "ncode": "N6661GI",
+            "pt": 194,
+            "rank": 283
+        },
+        {
+            "ncode": "N2485GF",
+            "pt": 194,
+            "rank": 284
+        },
+        {
+            "ncode": "N9596GX",
+            "pt": 192,
+            "rank": 285
+        },
+        {
+            "ncode": "N4411GL",
+            "pt": 192,
+            "rank": 286
+        },
+        {
+            "ncode": "N0520GH",
+            "pt": 190,
+            "rank": 287
+        },
+        {
+            "ncode": "N0319GY",
+            "pt": 190,
+            "rank": 288
+        },
+        {
+            "ncode": "N0665HC",
+            "pt": 190,
+            "rank": 289
+        },
+        {
+            "ncode": "N4623GX",
+            "pt": 190,
+            "rank": 290
+        },
+        {
+            "ncode": "N5824CT",
+            "pt": 190,
+            "rank": 291
+        },
+        {
+            "ncode": "N5375CY",
+            "pt": 190,
+            "rank": 292
+        },
+        {
+            "ncode": "N6241HB",
+            "pt": 188,
+            "rank": 293
+        },
+        {
+            "ncode": "N5623HB",
+            "pt": 188,
+            "rank": 294
+        },
+        {
+            "ncode": "N9586HB",
+            "pt": 188,
+            "rank": 295
+        },
+        {
+            "ncode": "N6666HA",
+            "pt": 188,
+            "rank": 296
+        },
+        {
+            "ncode": "N1541HC",
+            "pt": 188,
+            "rank": 297
+        },
+        {
+            "ncode": "N0680DH",
+            "pt": 188,
+            "rank": 298
+        },
+        {
+            "ncode": "N9925GX",
+            "pt": 188,
+            "rank": 299
+        },
+        {
+            "ncode": "N6406GP",
+            "pt": 188,
+            "rank": 300
+        }
+    ]'
+}

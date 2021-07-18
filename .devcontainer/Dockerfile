@@ -44,7 +44,8 @@ RUN pip install --no-cache-dir \
     ipykernel \
     black \
     flake8 \
-    mypy
+    mypy \
+    isort
 
 
 

@@ -1,6 +1,19 @@
 {
     "cSpell.words": [
+        "ncode",
         "rtype",
         "rtypes"
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "db",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "docker_db",
+            "database": "docker_db",
+            "username": "docker_db",
+            "password": "docker_db"
+        }
     ]
 }
